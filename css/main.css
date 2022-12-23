@@ -1,0 +1,765 @@
+#wrap {
+  width: 100%;
+}
+
+/* 상단영역 */
+
+#header {
+  width: 100%;
+  height: 125px;
+  background-color: rgb(50, 51, 51);
+}
+#header_top {
+  width: 100%;
+  height: 45px;
+  background-color: rgb(39, 39, 39);
+}
+
+#header_top .txt_t {
+  color: #fff;
+  line-height: 45px;
+  text-align: center;
+  font-size: 13px;
+  cursor: pointer;
+}
+#header_in {
+  width: 100%;
+  height: 80px;
+}
+#header_in .group {
+  width: 100%;
+  height: 80px;
+}
+
+#header_in .info_mn {
+  float: right;
+  width: 300px;
+  height: 80px;
+}
+#header_in .info_mn ul {
+  line-height: 80px;
+  float: right;
+}
+
+#header_in .info_mn li {
+  float: left;
+  padding-right: 17px;
+}
+#header_in .info_mn a {
+  font-size: 15px;
+  color: #fff;
+}
+#header_in .nav {
+  width: 1000px;
+  height: 100px;
+  padding-left: 45px;
+}
+#header_in .nav ul {
+  line-height: 80px;
+}
+#header_in .nav li {
+  float: left;
+  padding-right: 30px;
+}
+#header_in .nav a {
+  font-size: 15px;
+  color: #fff;
+}
+
+/* 메인 영역 */
+#main {
+  background: url(../images/Aesop_main.jpg) no-repeat 0 0;
+  width: 100%;
+  height: 529px;
+  background-size: 100%;
+  position: relative;
+}
+/* #main .logo{
+    position: absolute;
+    top:200px;
+    left: 20px;
+} */
+#main .txt_box {
+  width: 500px;
+  height: 300px;
+  margin-left: 320px;
+  padding-top: 110px;
+}
+#main .txt_h {
+  color: #fff;
+  font-size: 16px;
+  padding-bottom: 16px;
+}
+#main .ttl {
+  color: #fff;
+  font-size: 31px;
+  padding-bottom: 26px;
+}
+
+#main .txt1 {
+  color: #fff;
+  font-size: 16px;
+  padding-bottom: 55px;
+}
+#main .txt2 {
+  width: 300px;
+  height: 60px;
+  border: 1px solid #ccc;
+  line-height: 60px;
+  padding-left: 20px;
+  cursor: pointer;
+  position: relative;
+}
+#main .txt2.act {
+  background-color: rgb(37, 37, 37);
+  border: 1px solid rgb(37, 37, 37);
+  color: #fff;
+  transition: all 0.2s;
+}
+#main .txt2 .txt22 {
+  position: absolute;
+  top: 0px;
+  right: 15px;
+  font-size: 18px;
+  color: #fff;
+}
+
+#main .txt2 a {
+  color: #fff;
+  font-size: 16px;
+}
+
+#main .main_img {
+  float: right;
+  position: absolute;
+  top: 220px;
+  left: 1550px;
+  cursor: pointer;
+}
+
+/* 컨텐츠영역 */
+
+#contents {
+  width: 100%;
+  height: 4600px;
+  background-color: rgb(255, 252, 241);
+}
+
+/* 퍼퓸 */
+
+#contents .perfume {
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+}
+
+#contents .perfume_txt {
+  width: 540px;
+  height: 300px;
+  float: left;
+  padding-top: 200px;
+  margin-left: 100px;
+}
+
+#contents .ttl_h {
+  font-size: 16px;
+}
+#contents .ttl_b {
+  margin-top: 15px;
+  margin-bottom: 25px;
+  font-size: 30px;
+  font-weight: 400;
+}
+#contents .txt1 {
+  margin-bottom: 40px;
+  font-size: 16px;
+  line-height: 23px;
+}
+#contents .txt2 {
+  width: 150px;
+  height: 60px;
+  cursor: pointer;
+  color: #000;
+  line-height: 60px;
+  position: relative;
+}
+#contents .txt2 a {
+  font-size: 16px;
+}
+#contents .txt2 .img2 {
+  position: absolute;
+  top: 24px;
+  left: 120px;
+  width: 13px;
+  height: 13px;
+  border: 0;
+}
+
+#contents .perfume_img {
+  /* display: flex;
+  justify-content: space-around; */
+  padding-top: 200px;
+  width: 1400px;
+  height: 500px;
+  float: right;
+}
+#contents .perfume_img li{
+  float: left;
+  width: 400px;
+  margin-left: 50px;
+}
+
+#contents .perfume_img p {
+  text-align: center;
+  line-height: 40px;
+  font-size: 17px;
+}
+#contents .line {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 60px;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+
+/* 아로마퍼퓸 */
+#aroma {
+  width: 100%;
+  height: 800px;
+}
+#aroma .aroma_txt {
+  float: left;
+  width: 540px;
+  height: 500px;
+  margin-top: 150px;
+  margin-left: 100px;
+}
+
+#aroma .ttl_h {
+  font-size: 16px;
+}
+
+#aroma .ttl_b {
+  margin-top: 15px;
+  margin-bottom: 25px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+#aroma .txt1 {
+  margin-bottom: 60px;
+  font-size: 16px;
+  color: rgb(35, 35, 35);
+}
+
+/* #aroma .txt_box {
+    width: 300px;
+    height: 60px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+} */
+
+#aroma .txt2 {
+  float: left;
+  width: 300px;
+  height: 60px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  color: #000;
+  line-height: 60px;
+  padding-left: 20px;
+  position: relative;
+}
+#aroma .txt2 a {
+  font-size: 14px;
+}
+#aroma .txt2 img {
+  position: absolute;
+  top: 24px;
+  right: 15px;
+  width: 13px;
+  height: 13px;
+  border: 0;
+}
+
+/* #aroma .arrow {
+    float: right;
+    padding-top: 18px;
+    padding-right: 15px;
+    
+} */
+#aroma .aroma_img {
+  float: right;
+  width: 1100px;
+  height: 650px;
+  margin-top: 150px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+/* 캔들 */
+#candle {
+  width: 100%;
+  height: 700px;
+  margin-top: 180px;
+}
+#candle .candle_txt {
+  float: right;
+  width: 540px;
+  height: 500px;
+  margin-right: 100px;
+}
+
+#candle .ttl_h {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+#candle .txt1 {
+  margin-bottom: 60px;
+  font-size: 16px;
+  line-height: 23px;
+  color: rgb(35, 35, 35);
+}
+
+#candle .txt2 {
+  width: 300px;
+  height: 60px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  color: #000;
+  line-height: 60px;
+  padding-left: 20px;
+  position: relative;
+}
+
+#candle .txt2 a {
+  font-size: 14px;
+}
+#candle .txt2 img {
+  position: absolute;
+  top: 24px;
+  right: 15px;
+  width: 13px;
+  height: 13px;
+  border: 0;
+}
+
+#candle .aroma_img {
+  float: left;
+  width: 1100px;
+  height: 650px;
+  margin-top: 150px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+/* 워시 */
+
+#wash {
+  width: 100%;
+  height: 800px;
+}
+#wash .wash_h {
+  width: 500px;
+  height: 145px;
+  display: flex;
+  align-items: flex-end;
+  margin-left: 40px;
+}
+#wash .wash_h p {
+  font-size: 30px;
+  padding-left: 50px;
+}
+#wash .wash_b {
+  display: flex;
+  justify-content: space-around;
+}
+#wash .wash_b li {
+  width: 350px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-left: 30px;
+  padding-top: 150px;
+}
+
+#wash .wash_b p {
+  text-align: center;
+  width: 100%;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+/* 스토어 */
+
+#store {
+  width: 100%;
+  height: 900px;
+  margin-top: 100px;
+}
+
+#store .store_txt {
+  float: left;
+  width: 540px;
+  height: 500px;
+  margin-top: 150px;
+  margin-left: 100px;
+}
+
+#store .ttl_b {
+  margin-top: 15px;
+  margin-bottom: 35px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+#store .txt1 {
+  margin-bottom: 60px;
+  font-size: 16px;
+  line-height: 23px;
+  color: rgb(35, 35, 35);
+}
+
+#store .txt2 {
+  width: 300px;
+  height: 60px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  color: #000;
+  line-height: 60px;
+  padding-left: 20px;
+  position: relative;
+}
+
+#store .txt2 a {
+  font-size: 14px;
+}
+#store .txt2 img {
+  position: absolute;
+  top: 24px;
+  right: 15px;
+  width: 13px;
+  height: 13px;
+  border: 0;
+}
+
+#store .store_img {
+  float: right;
+  width: 1100px;
+  height: 650px;
+  margin-top: 150px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+/* 하단영역 */
+#footer {
+  width: 100%;
+  height: 1000px;
+  background-color: rgb(39, 39, 39);
+}
+#footer .footer_in1 {
+  width: 100%;
+  height: 520px;
+  display: flex;
+  justify-content: space-between;
+}
+#footer .footer_in2 {
+  width: 100%;
+  height: 430px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#e-mail {
+  width: 750px;
+  height: 470px;
+  padding-left: 40px;
+  padding-top: 60px;
+}
+
+#e-mail .line {
+  width: 720px;
+  height: 1px;
+  background-color: #fff;
+}
+#e-mail .ttl {
+  font-size: 16px;
+  padding-bottom: 25px;
+  color: #fff;
+}
+#e-mail .txt1 {
+  font-size: 14px;
+  padding-top: 25px;
+  color: #fff;
+}
+#e-mail .checkbox1 {
+  font-size: 15px;
+  padding-top: 20px;
+  color: #fff;
+}
+#e-mail [type="checkbox"] {
+  background: #000;
+}
+#e-mail .checkbox2 {
+  font-size: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+}
+#e-mail .txt2 {
+  font-size: 14px;
+  width: 700px;
+  line-height: 22px;
+  border: 1px solid #fff;
+  padding: 10px;
+  color: #fff;
+}
+#e-mail .checkbox3 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 15px;
+  color: #fff;
+}
+#e-mail .txt3 {
+  font-size: 14px;
+  width: 700px;
+  line-height: 22px;
+  border: 1px solid #fff;
+  padding: 10px;
+  color: #fff;
+}
+#e-mail .txt4 {
+  margin-top: 20px;
+  font-size: 18px;
+  width: 700px;
+  line-height: 22px;
+  border: 1px solid #fff;
+  padding: 10px;
+  color: #fff;
+  background-color: rgb(39, 39, 39);
+}
+
+/* 서포트 */
+
+#support {
+  width: 300px;
+  height: 300px;
+  padding-left: 40px;
+  padding-top: 60px;
+}
+#support .ttl {
+  font-size: 16px;
+  padding-bottom: 25px;
+  color: #fff;
+}
+#support .line {
+  width: 290px;
+  height: 1px;
+  background-color: #fff;
+}
+#support .box1 {
+}
+#support .box1 li {
+  padding-top: 20px;
+  line-height: 10px;
+}
+#support .box1 a {
+  font-size: 14px;
+  color: #fff;
+}
+
+/* 서비스 */
+
+#service {
+  width: 300px;
+  height: 300px;
+  padding-top: 60px;
+}
+#service .ttl {
+  font-size: 16px;
+  padding-bottom: 25px;
+  color: #fff;
+}
+#service .line {
+  width: 290px;
+  height: 1px;
+  background-color: #fff;
+}
+#service .box2 {
+}
+#service .box2 li {
+  padding-top: 20px;
+  line-height: 10px;
+}
+#service .box2 a {
+  font-size: 14px;
+  color: #fff;
+}
+
+/* 위치정보 */
+
+#position {
+  width: 300px;
+  height: 300px;
+  padding-top: 60px;
+}
+#position .ttl {
+  font-size: 16px;
+  padding-bottom: 25px;
+  color: #fff;
+}
+#position .line {
+  width: 290px;
+  height: 1px;
+  background-color: #fff;
+}
+#position .box3 {
+}
+#position .box3 li {
+  padding-top: 20px;
+  line-height: 10px;
+  color: #fff;
+  font-size: 14px;
+}
+#position .kor {
+  padding-bottom: 20px;
+}
+#position .box3 a {
+  font-size: 14px;
+  color: #fff;
+}
+
+/* 비건 */
+#vegan {
+  width: 750px;
+  height: 300px;
+  padding-left: 40px;
+  padding-top: 60px;
+}
+#vegan .ttl {
+  font-size: 16px;
+  padding-bottom: 25px;
+  color: #fff;
+}
+#vegan .line {
+  width: 720px;
+  height: 1px;
+  background-color: #fff;
+}
+#vegan .txt {
+  padding-top: 20px;
+  font-size: 14px;
+  color: #fff;
+}
+#vegan .txt a {
+  font-size: 14px;
+  color: #fff;
+}
+
+/* 소개 */
+
+#story {
+  width: 300px;
+  height: 300px;
+  padding-top: 60px;
+}
+
+#story .line {
+  width: 290px;
+  height: 1px;
+  background-color: #fff;
+}
+#story .ttl {
+  font-size: 16px;
+  padding-bottom: 25px;
+  color: #fff;
+}
+#story .box4 {
+}
+#story .box4 li {
+  padding-top: 20px;
+  line-height: 10px;
+}
+#story .box4 a {
+  font-size: 14px;
+  color: #fff;
+}
+
+/* 소셜 */
+
+#social {
+  width: 300px;
+  height: 300px;
+  padding-top: 60px;
+}
+
+#social .line {
+  width: 290px;
+  height: 1px;
+  background-color: #fff;
+}
+#social .ttl {
+  font-size: 16px;
+  padding-bottom: 25px;
+  color: #fff;
+}
+#social .box5 {
+}
+#social .box5 li {
+  padding-top: 20px;
+  line-height: 10px;
+}
+#social .box5 a {
+  font-size: 14px;
+  color: #fff;
+}
+
+/* 주소 */
+#address {
+  width: 300px;
+  height: 300px;
+  padding-top: 60px;
+  font-style: normal;
+}
+#address .line {
+  width: 290px;
+  height: 1px;
+  background-color: #fff;
+
+}
+
+#address .ttl {
+  font-size: 16px;
+  padding-bottom: 25px;
+  color: #fff;
+}
+#address .txt {
+  width: 298px;
+  margin: 0 auto;
+  padding-top: 20px;
+  line-height: 22px;
+  font-size: 14px;
+  color: #fff;
+  /* 폰트 사이즈 설정히고 패딩 다 맞는지 
+    세세하게 바꾸기 */
+}
+#address a {
+  color: #fff;
+}
+
+#footer_bot {
+  width: 100%;
+  height: 50px;
+  border-top: 2px solid rgb(255, 255, 255);
+  box-sizing: border-box;
+}
+#footer_bot p {
+  padding-top: 30px;
+  padding-left: 40px;
+  color: #fff;
+  font-size: 14px;
+}
