@@ -132,8 +132,10 @@
 #main .main_img {
   float: right;
   position: absolute;
-  top: 220px;
-  left: 1550px;
+  top: 11.4vw;
+  /* 220px */
+ right:2vw;
+ /* 40 */
   cursor: pointer;
 }
 
@@ -198,15 +200,14 @@
 #contents .perfume_img {
   /* display: flex;
   justify-content: space-around; */
-  padding-top: 200px;
-  width: 1400px;
+  width: 1200px;
   height: 500px;
   float: right;
+  margin-top: 200px;
 }
 #contents .perfume_img li{
   float: left;
   width: 400px;
-  margin-left: 50px;
 }
 
 #contents .perfume_img p {
